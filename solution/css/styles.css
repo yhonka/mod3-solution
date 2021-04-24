@@ -1,0 +1,90 @@
+/*Header*/
+#header-nav{
+	border-radius:0;
+	border: 0;
+	background-color:gray;
+}
+#nav-list a{
+	color:black;
+	text-align: center;
+	font-family: 'Lora', serif;
+}
+#nav-list a:hover{
+	background: #E7E7E7;
+}
+#nav-list a span{
+	font-size: 1.8em;
+}
+@media (min-width:768px){
+	#nav-list a {visibility:hidden;}
+}
+#header-nav .navbar-brand{
+	margin: 0px 0px -50px 0px;
+}
+#header-nav .navbar-toggle{
+	margin:20px;
+}
+.navbar-brand{
+	padding-top: 25px;
+}
+h1{	
+	margin-left:-20px;	
+}	
+.navbar-brand h1{ 
+	color: black;
+	font-size: 1.5em;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: -2px;
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+}
+/*Contenido*/
+.row {
+	width:100%;
+}
+h2{
+	text-align:center;
+	margin:-0.6%;
+	padding:0;
+	border:black 3px solid;
+	margin-left:42%;
+}
+h1{
+	text-align: center;
+}
+#chic h2{
+	background-color:#ea899a;  
+}
+#bee h2{
+	background-color: red;
+}
+#sus h2{
+	background-color:#DAA520;
+}
+p{
+	padding:6px;
+}
+#chic, #bee, #sus{
+	width:100%;
+	font-family: 'Lora', serif;
+	padding:0;
+	margin-left:15px;
+	margin-bottom:28px;
+	background-color: gray;
+	border:black 3px solid;
+}
+@media (min-width: 768px) and (max-width: 991px){
+	#sus h2{
+		margin-right:-3px;
+		margin-top:-3px;
+		margin-left:72%;
+	}
+}
+.container-fluid{
+	margin: -25px 0px 0px 0px;
+	background-color: #E7E7E7;	
+}
+#chic a{color:#ea899a;}
+#sus a{color:#DAA520;}
+#bee a{color:red;}
